@@ -6,9 +6,9 @@ DISCOUNT = 0.03     #annual discount rate
 
 #NORMAL MATRIX
 TRANSITION_MATRIX_NONE = [
-    [None, 0.0135,      0,  0.0015, 0.0178],   # WELLNESS
+    [None, 0.0135,      0,  0.0015, 0.017638],   # WELLNESS
     [0   ,   None,     52,       0,   0.00],   # STROKE
-    [0   ,0.02984,   None, 0.00746, 0.0178],   # Post-StROKEY
+    [0   ,0.02984,   None, 0.00746, 0.017638],   # Post-StROKEY
     [0   ,      0,      0,    None,    0.0],   # STROKE DEAD
     [0.0 ,    0.0,    0.0,     0.0,   None]   # NO-STROKE DeaD
     ]
@@ -16,7 +16,7 @@ TRANSITION_MATRIX_NONE = [
 
 ###ANTICOAG MATRIX####
 TRANSITION_MATRIX_ANTICOAG = [
-    [None, 0.0135,      0,  0.0015, 0.0178],   # WELLNESS
+    [None, 0.0135,      0,  0.0015, 0.017638],   # WELLNESS
     [0   ,   None,     52,       0,   0.00],   # STROKE
     [0   ,0.02237,   None, 0.00746, 0.0188],   # Post-StROKEY
     [0   ,      0,      0,    None,    0.0],   # STROKE DEAD
