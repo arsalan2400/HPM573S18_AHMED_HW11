@@ -27,7 +27,7 @@ TRANSITION_MATRIX_ANTICOAG = [
 STATE_COST = [
     0,      #WELLL
     5000,  # stroke
-    200,  # post-stroke /year
+    200,  # PS
     0       #DEAD
 
 
@@ -41,11 +41,11 @@ ANNUAL_STATE_UTILITY = [
 ANTICOAG_STATE_COST = [
     0,
     0,  # stroke
-    750,  # post-stroke /year
+    750,  # new PS according to Q5
     0
 ]
 
-ANTICOAG_COST = 2000
+ANTICOAG_COST = 1000 #suggested to try and see
 # anticoagulation relative risk in reducing stroke incidence and stroke death while in “Post-Stroke”
 RR_STROKE = 0.65
 # anticoagulation relative risk in increasing mortality due to bleeding is 1.05.
