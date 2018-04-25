@@ -18,7 +18,7 @@ TRANSITION_MATRIX_NONE = [
 TRANSITION_MATRIX_ANTICOAG = [
     [None, 0.0135,      0,  0.0015, 0.017638],   # WELLNESS
     [0   ,   None,     52,       0,   0.00],   # STROKE
-    [0   ,0.02237,   None, 0.00746, 0.0188],   # Post-StROKEY
+    [0   ,0.02238,   None, 0.00746, 0.0186],   # Post-StROKEY
     [0   ,      0,      0,    None,    0.0],   # STROKE DEAD
     [0.0 ,    0.0,    0.0,     0.0,   None]   # NO-STROKE DeaD
     ]
