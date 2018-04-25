@@ -25,7 +25,10 @@ simOutputs_Anticoag = cohort_anticoag.simulate()
 SupportMarkov.print_outcomes(simOutputs_None, "Without Drug...:")
 SupportMarkov.print_outcomes(simOutputs_Anticoag, "With anticoagulant...:")
 
+##comp outcomes if needed
+SupportMarkov.print_comparative_outcomes(simOutputs_none, simOutputs_anticoag)
 
 
+###PROBLEM 5####
 # report the CEA results
 SupportMarkov.report_CEA_CBA(simOutputs_none, simOutputs_anticoag)
