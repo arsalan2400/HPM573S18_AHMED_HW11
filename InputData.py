@@ -1,7 +1,7 @@
 POP_SIZE = 2000     # cohort population size
 SIM_LENGTH = 5  # length of simulation (years)
 ALPHA = 0.05        #significance level for calculating confidence intervals
-DELTA_T = 1/52        #years (length of time step, how frequently you look at the patient)
+DELTA_T = 1/52        #time-step length
 DISCOUNT = 0.03     #annual discount rate
 
 #NORMAL MATRIX
@@ -46,9 +46,7 @@ ANTICOAG_STATE_COST = [
 ]
 
 ANTICOAG_COST = 1000 #suggested to try and see
-# anticoagulation relative risk in reducing stroke incidence and stroke death while in “Post-Stroke”
 RR_STROKE = 0.65
-# anticoagulation relative risk in increasing mortality due to bleeding is 1.05.
 RR_BLEEDING = 1.05
 STROKE_COST = 5000
 ANNUAL_PROB_BACKGROUND_MORT = True
